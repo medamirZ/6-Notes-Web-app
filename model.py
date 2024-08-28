@@ -34,3 +34,5 @@ accuracy = accuracy_score(prediction,y_test)
 print(f'Accuracy : {accuracy*100:.2f}%')
 pickle.dump(model,open('model.pkl','wb'))
 pickle.dump(vectorizer,open('vectorizer.pkl','wb'))
+
+#this model trained to a small to medium datasets givven an accuracy of 78%
